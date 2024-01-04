@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+
+:root {
+    --background: #e0e5ec;
+    --gray: #797d7f;
+}
+
+body {
+    background-color: var(--background)
+}
+
+
+header {
+    text-align: center;
+}
+
+.todo {
+    border: 1px solid #ff0000;
+}
+
+nav{
+    background-color: rgb(85, 255, 0);
+}

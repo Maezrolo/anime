@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap");
+
+
+:root {
+    --background: #e0e5ec;
+    --gray: #797d7f;
+}
+
+body {
+    background-color: var(--background)
+}
+
+
+header {
+    text-align: center;
+}
+
+
+nav{
+    background-color: var(--gray)
+}
+.navbar-nav .nav-link {
+    color: #fff; /* Cambia este valor al color que desees */
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6474; /* color de texto al pasar el mouse */
+    background-color: #f3f3f3; /* color de fondo al pasar el mouse */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}
+
+.d-flex .nav-link{
+    color: #fff;
+    margin-right: 15px;
+}
+
+.d-flex .nav-link:hover {
+    color: #0d6474;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4caf50; /* Color de fondo del footer */
+    color: #fff;
+    padding: 8px 0;
+}
+
+.footer-content{
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--gray);
+    color: #fff;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px ;
+    text-decoration: none;
+    margin-right: 9px;  
+}
